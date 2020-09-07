@@ -1,16 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Grid from '@material-ui/core/Grid'
 import Tweet from './Tweet';
-
+import { Typography } from '@material-ui/core';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
 function App() {
+
+
   return (
-    <div className="App">
+    <div>
       <header>        
       <Grid item spacing={64} >
-        <Grid style={{height:'20vh'}} className='App-logo' container direction='column' justify='center' alignItems='center'>
-          <img src={logo} alt='logo' />        
+        <Grid style={{height:'10vh'}} >
+        <AppBar color='secondary'>
+        <Toolbar >
+          <Typography variant="h6">Dissappearing Tweets</Typography>
+        </Toolbar>
+        </AppBar>
         </Grid>
         <Grid container direction='column' justify='center' alignItems='center'>
           <Tweet />
