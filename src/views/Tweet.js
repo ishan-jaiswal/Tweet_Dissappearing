@@ -82,8 +82,15 @@ export default function Tweet() {
                     <Typography style={{marginRight:'2vh'}}>Enter the Expiry Date</Typography>
                     <DateTimePicker                            
                         onChange={e=>{setDate(e)}}
-                        value={date}
-                        minDate={new Date()}
+                        value={date} 
+                        dayPlaceholder='dd' 
+                        monthPlaceholder='mm'  
+                        hourPlaceholder='hh'    
+                        minutePlaceholder='mm'   
+                        secondPlaceholder='ss' 
+                        yearPlaceholder='yyyy'   
+                        format="dd-MM-yyyy hh:mm:ss a"
+                        
                     />
                 </Grid>  
 
