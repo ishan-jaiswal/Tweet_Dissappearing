@@ -6,14 +6,12 @@ import { Typography } from '@material-ui/core';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 function App() {
-
-
   return (
     <div>
       <header>        
       <Grid item spacing={64} >
         <Grid style={{height:'10vh'}} >
-        <AppBar color='secondary'>
+        <AppBar style={{backgroundColor:'#1da1f2'}}>
         <Toolbar >
           <Typography variant="h6">Dissappearing Tweets</Typography>
         </Toolbar>
