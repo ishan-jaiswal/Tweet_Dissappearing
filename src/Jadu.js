@@ -19,6 +19,7 @@ export default function Jadu(props) {
     const [check,setCheck]=React.useState(false);
     React.useEffect(() => {
         setInterval(() => {
+            
             if(new Date()>=props.exp)
             {
                 setCheck(false)            
@@ -28,6 +29,7 @@ export default function Jadu(props) {
                 setCheck(true)
             }    
           }, 1000);                    
+          // eslint-disable-next-line
     }, [])
     return (
         <div>
