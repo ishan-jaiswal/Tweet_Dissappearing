@@ -83,6 +83,7 @@ export default function Tweet() {
                     <DateTimePicker                            
                         onChange={e=>{setDate(e)}}
                         value={date} 
+                        minDate={new Date()}
                         dayPlaceholder='dd' 
                         monthPlaceholder='mm'  
                         hourPlaceholder='hh'    
