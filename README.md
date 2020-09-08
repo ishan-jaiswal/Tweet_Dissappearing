@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-###Day 1 - Made the UI
-###Day 2 - Worked on features like dissappearing of tweets
-###Day 3 - Worked on Validations of input and appropiate error handling
+## Day 1 - Made the UI
+## Day 2 - Worked on features like dissappearing of tweets
+## Day 3 - Worked on Validations of input and appropiate error handling
 ## Available Scripts
 
 In the project directory, you can run:
